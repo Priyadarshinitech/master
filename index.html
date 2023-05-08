@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <header class="movie-banner">
+        <div>
+            <h1 class="title-font">Unlimited movies and more</h1>
+        </div>
+        <div>
+            <h3 class="watch-font">Watch anywhere. Cancel anytime.</h3>
+        </div>
+        <div>
+            <h5  class="ready-font">Ready to watch? Enter your email to create or restart your membership.</h5>
+        </div>
+    </header>
+    <main>
+        <nav class="nav nav-pills nav-justified bg-dark text-white">
+            <a class="nav-link active text-white border border-danger" id="now-playing" href="javascript:void(0);">Now Playing</a>
+            <a class="nav-link text-white border border-danger" id="popular" href="javascript:void(0);">Popular</a>
+            <a class="nav-link text-white border border-danger" id="top-rated" href="javascript:void(0);">Top Rated</a>
+            <a class="nav-link text-white border border-danger" id="upcoming" href="javascript:void(0);">Upcoming</a>
+          </nav>
+          <div class="category-title-container mt-4 ms-5">
+            <h2 class="category-title">Now Playing</h2>
+          </div>
+        <div class="container" id="movie-list">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border text-warning loader text-center" role="status">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src = "api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>   
+</body>
+</html>

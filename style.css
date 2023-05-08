@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.percentage-position{
+    position: absolute;
+    top: 11px;
+    color: white;
+    right: 26px;
+}
+.percentage-main-position{
+    position: relative;
+}
+.percentage-background{
+    background-color: black;
+}
+.movie-banner{
+    background-image: url("images/movie_banner.jpg");
+    height: 489px;
+    color: white;
+}
+.title-font{
+    margin-left: 50px;
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: xxx-large;
+}
+.watch-font{
+    margin-left: 50px;
+    font-weight: 700;
+}
+.ready-font{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.nav-pills .nav-link.active{
+    background-color: orange;
+}
+.category-title{
+    margin-left:260px;
+}
+.loader{
+    display:none;
+}
