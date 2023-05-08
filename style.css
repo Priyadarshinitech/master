@@ -1,0 +1,1724 @@
+*{
+    margin:0;
+    padding:0;
+}
+main,header,footer{
+    overflow: hidden;
+}
+
+.family{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #fff;
+}
+.right-side-nav{
+    font-size: 30px;
+    color: #000;
+}
+.louis-hidden{
+    overflow-x: hidden;
+}
+.margin{
+    font-size: 30px;
+    padding-right: 100px;
+    margin-right: 157px;
+}
+.font{
+    font-size: 80px;
+}
+.font-size{
+    font-size:100px;
+}
+.about-us-height{
+    min-height: 985px;
+    position:relative;
+}
+.about-us-position{
+    position:relative;
+    left: -176px
+}
+.align{
+    padding-left: 50px;
+    color:#808080;
+}
+.about-us-align{
+    position: absolute;
+    bottom: 122px;
+    left: 191px;
+}
+.vertical{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-left: 50px;
+    color:#808080;
+}
+.about-us-font{
+    font-size: xx-large;
+}
+.co-founder-font{
+    font-size: larger;
+    color:#808080;
+}
+.about-us-margin{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.vertical-1{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color:#808080;
+    padding-right: 50px;
+}
+.align-1{
+    padding-right:47px;
+    color:#808080;
+}
+.about-us-position-1{
+    position:relative;
+    right:100;
+}
+.kawhi-font{
+    font-size: xxx-large;
+}
+.creative-font{
+    font-size: x-large;
+    color: #808080;
+}
+.sandra-para{
+    font-size:x-large;
+}
+.sammy-font{
+    font-size: xx-large;
+}
+.stylist-font{
+    font-size: larger;
+    color: #808080;
+}
+.our-team-position{
+    position: relative;
+    z-index: 1;
+    bottom: -114px;
+}
+.view-all-margin{
+    position: absolute;
+    bottom: 66px;
+    left: 142px;
+}
+.view-padding{
+    padding-left: 50px;
+}
+.line-padding{
+    margin-left: 50px;
+    padding-left: 80px;
+}
+.our-team-padding{
+    padding-top: 50px;
+    padding-right:20px;
+    flex-direction: row-reverse;
+}
+.our-team-height{
+    min-height: 990px;
+    position: relative;
+}
+.line-color{
+    color:#808080;
+}
+.view-all-margin1{
+    position: absolute;
+    left: 158px;
+    bottom: 106px;
+}
+.scissor-flex{
+    justify-content: space-evenly;
+}
+.our-works-image3{
+    width: 100%;;
+}
+.our-works-margin ul{
+    list-style-type: none;
+    margin-left: 47px;
+    margin-top: 72px;
+    font-size: x-large;
+    line-height: 69px;
+}
+.our-works-align1{
+    margin-left: -30px;
+}
+.our-works-align{
+    margin-left: -12px;
+}
+.margin-align{
+    margin-left: -385px;
+    }
+.our-works-height{
+    min-height: 899px;
+    margin-left: 12px;
+    width: 608px;
+    position:relative;
+}
+.our-works-image1{
+    width: 50%;
+} 
+.our-works-image2{
+    width:49%;
+}
+.our-works-image4{
+    width:51%;
+}
+.our-works-image5{
+    width: 112%;
+} 
+.scissor-margin{
+    margin-top: -20px;
+}
+.scissor-margin1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.scissor-para{
+    width:335px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.scissor-para1{
+    width:383px;
+    padding-left:72px;
+    margin-top: 20px;
+}
+.scissor-para2{
+    width:407px;
+    padding-left:73px;
+    margin-top: 20px;
+}
+.coffee-margin{
+    margin-top:-7px;
+}
+.phone-margin{
+    margin-top:-14px;
+}
+.phone-para{
+    width:407px;
+    padding-left:73px;
+    margin-top: 13px;
+}
+.solution-margin{
+    margin-top:-8px;
+}
+.our-services-height{
+    min-height: 941px;
+    position: relative;
+}
+.testimonials-margin{
+    position: absolute;
+    bottom: 66px;
+    left: 96px;
+}
+.leo-alpha-margin{
+    position: relative;
+    z-index: 1;
+    left: -80px;
+    top: 137px;
+    height:844px;
+}
+.leo-alpha-para{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 62px;
+}
+.leo-alpha-image{
+    margin-top: 50px;
+    grid-gap: 85px;
+    padding-top: 50px;
+    margin-left: 62px;
+}
+.leo-alpha-padding{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 62px;
+}
+.testimonials-height{
+    min-height: 1123px;
+    position: relative;
+}
+.leo-font{
+    font-size: 40px;
+    font-weight: 400;
+}
+.leo-alpha-font{
+    color:#808080;
+    font-size: 23px;
+    font-weight: 400;
+}
+.leo-alpha-big-image{
+    margin-top: 98px;
+}
+.our-blogs-margin{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.our-blogs-align{
+    margin-top: 144px;
+}
+.our-blogs-heading{
+    padding-left: 141px;
+    margin-top: 50px;
+}
+.our-blogs-para{
+    margin-top: 36px;
+    padding-left: 44px;
+}
+.continue-margin{
+    margin-top: 30px;
+}
+.continue-align{
+    margin-left: 277px;
+}
+.best-design-margin{
+    margin-left: 50px;
+}
+.best-design-heading{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.best-design-para{
+    margin-top: 35px;
+}
+.continue-align1{
+    margin-left: 50px;
+    margin-bottom: 88px;
+}
+.our-blogs-margin1{
+    padding-left: 150px;
+}
+.our-blog-height{
+    min-height: 1090px;
+    position: relative;
+}
+.right-position{
+    position: relative;
+    top:-2px;
+}
+.pricing-align{
+    margin-left: 20px;
+    position: relative;
+    width: 499px;
+}
+.pricing-margin{
+    bottom: 75px;
+    margin-top: 50px;
+    position: absolute;
+    left: 109px;
+}
+.pricing-height{
+    margin-top: 256px;
+    padding-top: 54px;
+    margin-left: 82px;
+}
+
+.card-grid{
+    grid-gap: 168px;
+    margin-top: 66px;
+}
+.card-margin{
+    margin-left:100px;
+}
+.border{
+    width: 165px;
+    height:165px;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.basic-margin{
+    text-align: center;
+    margin-top: 63px;
+    margin-bottom: 33px;
+    font-weight: 500;
+}
+.basic-align{
+    text-align: center;
+    line-height: 45px;
+}
+.select-margin{
+    margin-top: 53px;
+    text-align: center;
+}
+.button-align{
+    padding: 12px 36px 12px 36px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+.coffee-font{
+    line-height:92px;
+    margin-top:50px;
+}
+.coffee-align{
+    font-size:xxx-large;
+}
+.coffee-heading{
+    color:#808080;
+    margin-top:20px;
+}
+.coffee-large{
+    font-size:x-large;
+}
+.heart-font{
+    font-size:xxx-large;
+}
+.footer-hidden{
+    overflow-x: hidden;
+}
+.footer-margin{
+    margin-top: 27px;
+    background-color: #252525;
+}
+.footer-align{
+    margin-left: 27px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.eagleeyes-heading{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.excepteur-para{
+    width: 409px;
+}
+.excepteur-line{
+    width: 398px;
+}
+.baria-margin{
+    margin-top: 42px;
+}
+.baria-font{
+    color:#ffff00;
+}
+.baria-para{
+    font-size:small;
+}
+.leonard-margin{
+    margin-top: 50px;
+    padding-top: 59px;
+    margin-right: 50px;
+    padding-right: 50px;
+    width:349px;
+}
+.leonard-font{
+    font-size:small;
+}
+.comment-margin{
+    margin-top: 69px;
+    width: 436px;
+    padding-left: 49px;
+}
+.comment-align{
+    margin-top: 44px;
+}
+.comment-font{
+    font-size: x-large;
+}
+.name-margin{
+    margin-top: 20px;
+}
+.name-font{
+    font-size:large;
+}
+.name-line{
+    width:352px;
+}
+.button-margin{
+    margin-top: 31px;
+    margin-bottom: 35px;
+}
+.button-padding{
+    padding:10px;
+}
+.about-margin{
+    grid-gap: 73px;
+    font-size: small;
+    margin-left:100px;
+    margin-top:39px;
+    padding-left: 106px;
+}
+.about-line{
+    padding-left: 41px;
+}
+.hr-color{
+    margin-left: 207px;
+}
+.contact-margin{
+    margin-bottom: 50px;
+}
+@media screen and (max-width:500px){
+    main,footer,header{
+        overflow: hidden;
+    }
+    .margin{
+        font-size: 14px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .font{
+        font-size: 33px;
+    }
+    .font-size {
+        font-size: 43px;
+    }
+    .louis .align{
+        font-size:medium !important;
+        padding-left: 0px;
+    }
+    .sed-justify{
+        text-align: justify;
+    }
+    .louis .vertical {
+        writing-mode: horizontal-tb;
+        text-orientation: none;
+        padding-left: 3px;
+        font-size:medium !important;
+    }
+    .about-us-mobile-only{
+        text-align: center;
+    }
+    .about-us-align{
+        position: static;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+    }
+    .about-us-font{
+        font-size: medium;
+    }
+    .co-founder-font{
+        font-size: medium;
+    }
+    .about-us-position{
+        left: 0px;
+    }
+    .about-us-height{
+        min-height: 0px;
+    }
+    .about-us-heading{
+        text-align: center;
+    }
+    .about-us-margin{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .kawhi-font{
+        font-size: xx-large;
+    }
+    .creative-font{
+        font-size: medium;
+    }
+    .leonard-image{
+        width: 93%;
+    }
+    .filton-margin{
+        margin-left: 0px!important;
+        text-align:center;
+    }
+    .sandra-width{
+        width: 100% !important;
+    }
+    .sammy-para{
+        text-align: justify;
+    }
+    .sandra-image{
+        width:100%;
+    }
+    .sandra-margin{
+        text-align: center;
+    }
+    .our-team-position {
+        bottom: 0px;
+    }
+    .our-team-height {
+        min-height: 231px;
+    }
+    .our-teams-container .our-team-padding{
+        flex-direction: row;
+    }
+    .our-teams-container .vertical-1{
+        writing-mode: horizontal-tb;
+    }
+    .our-teams-container .view-all-margin{
+        left: 82px;
+        bottom: 34px;
+    }
+    .jackson-image{
+        width: 100%;
+    }
+    .our-works-container{
+        margin:auto;
+    }
+    .our-works-height{
+        margin-left: 0px;
+        min-height: 720px;
+    }
+    .our-works-container .vertical{
+        padding-left: 15px;
+        display: inline-block;
+        writing-mode: horizontal-tb;
+        text-orientation: none;
+    }
+    .our-works-container .align{
+        display: inline-block;
+    }
+    .our-works-container .our-works-margin ul {
+        margin-top: 20px;
+    }
+    .our-works-container .view-all-margin1{
+        left:84px;
+        bottom:40px;
+    }
+    .our-works-container .our-works-flex img{
+        width:100%;
+    }
+    .our-works-container .our-works-flex{
+        flex-wrap: wrap;
+    }
+    .our-works-align, .our-works-align1,.margin-align{
+        margin-left:0px;
+    }
+    .justify-content-center-mobile-only {
+        justify-content: center;
+    };
+    .scissor-flex{
+        margin:3px 3px;
+        flex-wrap: wrap;
+    }
+    .scissor-margin1, .scissor-para{
+        margin-left:0px;
+    }
+    .scissor-para,.scissor-para1,.scissor-para2,.phone-para,.furniture-para{
+        padding-left: 0px;
+        width:100%;
+    }
+    .scissor-flex .view-all-margin{
+        left:56px;
+    }
+    .our-services-container{
+        margin-top: 30px;
+    }
+    .our-services-container .our-services-height{
+        min-height: 288px;
+    }
+    .our-services-container .our-team-padding{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 3px;
+        margin-top: 0px !important;
+    }
+    .our-services-container .our-team-padding .vertical-1{
+        padding-right: 0px;
+        writing-mode: horizontal-tb;
+    }
+    .our-services-container.our-team-padding .align-1{
+        padding-right: 24px;
+    }
+    .our-services-container .view-all-margin{
+        bottom: 56px;
+        left:56px;
+    }
+    .testimonials-container .testimonials-height .align{
+        padding-top: 0px;
+        padding-left: 40px;
+    }
+    .testimonials-container .testimonials-height .vertical{
+        writing-mode: horizontal-tb;
+        padding-left: 23px;
+    }
+    .testimonials-container .testimonials-height {
+        min-height: 275px;
+    }
+    .testimonials-container .testimonials-margin {
+        bottom: 43px;
+    }
+    .leo-alpha-margin{
+        top:0px;
+        position: static;
+    }
+    .leo-alpha-para{
+        margin-left: 13px;
+        padding-top: 0px;
+    }
+    .leo-alpha-padding{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        padding-top: 41px;
+    }
+    .text-center-mobile-only{
+        text-align: center;
+    }
+    .leo-alpha-image{
+        margin-top: 0px;
+        grid-gap: 0px;
+        padding-top: 35px;
+    }
+    .leo-alpha-image1{
+        width: 100%;
+        margin-left: 18px;
+    }
+    .leo-alpha-image2{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 18px;
+    }
+    .leo-alpha-image3{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 18px;
+    }
+    .leo-alpha-big-image{
+        display: none;
+    }
+    .our-blogs-container{
+        margin-top:490px;
+    }
+    .our-blogs-container .our-blogs-image2 img{
+        width:100%;
+    }
+    .our-blogs-align{
+        margin-top: 50px;
+    }
+    .our-blogs-heading{
+        padding-left: 54px;
+    }
+    .our-blogs-para{
+        padding-left: 28px;
+    }
+    .continue-align{
+        margin-left: 183px;
+    }
+    .our-blogs-container .our-blogs-image1 img{
+        width:100%;
+    }
+    .our-blogs-margin1{
+        padding-left: 0px;
+    }
+    .our-blog-height{
+        margin-top: 50px;
+        min-height: 305px;
+    }
+    .our-blogs-container .our-blog-height .vertical-1{
+        writing-mode: horizontal-tb;
+    }
+    .our-blogs-container .our-blog-height .view-all-margin{
+        bottom: 45px;
+        left: 82px;
+    }
+    .pricing-container{
+        margin-top:50px;
+    }
+    .pricing-align{
+        margin-left: 10px;
+        position: static;
+        width: 395px;
+    }
+    .pricing-padding{
+        margin-top: 50px !important;
+    }
+    .pricing-container .pricing-padding .align{
+        padding-left: 0px;
+    }
+    .pricing-container .pricing-padding .vertical{
+        writing-mode: horizontal-tb;
+        padding-left: 95px;
+        margin-top: -40px !important;
+    }
+    .pricing-margin{
+        padding-top: 6px;
+        margin-top: 40px;
+        margin-left: 51px;
+        padding-bottom: 39px;
+        position: static;
+    }
+    .card{
+        margin-left: 37px;
+        margin-top: 50px;
+    }
+    .card-grid{
+        margin-top:0px;
+    }
+    .footer-align{
+        padding-left:0px;
+    }
+    .excepteur-para{
+        width: 336px;
+    }
+    .excepteur-line {
+        width: 317px;
+    }
+    .baria-para{
+        width: 325px;
+    }
+    .leonard-margin{
+        padding-top: 0px;
+    }
+    .comment-margin{
+        margin-top: 10px;
+        width: 323px;
+    }
+    .comment-font{
+        font-size: medium;
+        padding-top: 23px;
+    }
+    .name-font{
+        font-size:small;
+    }
+    .name-line {
+        width: 221px;
+    }
+    .button-margin{
+        padding-bottom: 24px;
+    }
+    .hr-color {
+        margin-left: 0px;
+    }
+    .about-margin{
+        text-align: center;
+        line-height: 42px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .about-line {
+        display: none;
+    }
+    .contact-margin{
+        padding-bottom: 26px;
+    }
+    }
+
+    @media (min-width: 750px) and (max-width: 850px) {
+    main,footer,header{
+         overflow: hidden;
+    }
+    .margin{
+        margin-right: 77px;
+    }
+    .font{
+        font-size: 57px;
+    }
+    .font-size{
+        font-size: 74px;
+    }
+    .about-us-height{
+        width: 100%;
+        min-height: 0px;
+    }
+    .about-us-align{
+        left: 126px;
+    }
+    .about-us-position{
+        left:-156px;
+    }
+    .kawhi-font{
+        font-size: xx-large;
+    }
+    .creative-font {
+        font-size: larger;
+    }
+    .leonard-image{
+        width: 77%;   
+    }
+    .sandra-image{
+        width: 77%;   
+    }
+    .filton-margin{
+        margin-left: 49px !important;
+    }
+    .sammy-font{
+        font-size: x-large;
+    }
+    .stylist-font {
+        font-size: large;
+    }
+    .sandra-margin{
+        margin-left: 23px !important;
+    }
+    .our-teams-container{
+        width: 100%;
+    } 
+    .sandra-para{
+        font-size: larger;
+    } 
+    .our-teams-container .vertical-1 {
+        padding-right: 12px;
+    }
+    .our-works-flex{
+        margin-left: 12px;
+    }
+    .our-works-height{
+        width: 890px;
+    } 
+    .our-works-image1{
+        width: 50%;
+    } 
+    .our-works-image2{
+        width:49%;
+    } 
+    .our-works-image3{
+        width: 95%;
+    } 
+    .our-works-image4{
+        width: 50%;
+        height: 42%;
+    } 
+    .our-works-image5{
+        width: 111%;
+    } 
+    .our-works-image6{
+        height: 42%;
+        width: 214%;
+    }    
+    .margin-align{
+        margin-left: -274px;
+    }
+    .scissor-flex{
+        justify-content: space-between;
+    }
+    .our-services-height{
+        width: 67%;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: -270px;
+    }
+    .scissor-flex .our-services-container .vertical-1{
+        padding-right: 23px;
+    }
+    .our-team-padding{
+        padding-right:11px;
+    }
+    .scissor-flex .our-services-container .view-all-margin {
+        bottom: 66px;
+        left: 3px;
+    }
+    .testimonials-height{
+        margin-top: 50px;
+        width: 44%;
+    }
+    .testimonials-container .testimonials-height .vertical{
+        padding-left: 20px;
+    }
+    .testimonials-margin{
+        left:3px;
+    }
+    .leo-alpha-para{
+        width:129%;
+    }
+    .leo-alpha-margin{
+        left:6px;
+    }
+    .leo-alpha-image{
+        grid-gap: 0px;
+        margin-left: -44px;
+    }
+    .leo-alpha-big-image{
+        display: none;
+    }
+    .our-blogs-container .our-blogs-image2 img{
+        width:100%;
+    }
+    .our-blogs-container .our-blogs-align .our-blogs-heading{
+        padding-left: 44px;
+    }
+
+    .our-blogs-container .our-blogs-align .our-blogs-para{
+        padding-left: 45px;
+    }
+    .our-blogs-container .continue-margin .continue-align{
+        margin-left:210px;
+    }
+    .our-blogs-container .best-design-margin{
+        width:56%;
+        margin-left:79px;
+    }
+    .our-blogs-container .continue-margin{
+        margin-right: -5px;
+    }
+    .our-blogs-container .best-design-margin .best-design-heading{
+        padding-bottom: 27px;
+        padding-top: 0px;
+    }
+    .our-blogs-container .continue-margin .continue-align1{
+        margin-bottom: 21x;
+        margin-left:81px;
+    }
+    .our-blogs-container .our-blogs-image1{
+        margin-left:50px;
+        margin-bottom:50px;
+    }
+    .our-blogs-container .our-blogs-image1 img{
+        width:83%;
+    }
+
+    .our-blogs-container .our-blogs-margin1{
+        padding-left: 0px;
+    }
+    .our-blogs-container .our-blogs-margin1 .our-blog-height{
+        height:100%;
+    }
+    .our-blogs-container .our-blogs-margin1 .view-all-margin{
+        left: 24px;
+    }
+    .pricing-align{
+        margin-top: 50px;
+        margin-left: 12px;
+        width: 31%;
+    }
+    .pricing-padding{
+        padding-left: 0px !important;
+    }
+    .pricing-margin{
+        left: 6px;
+    }
+    .pricing-card{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .pricing-card1{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .coffee{
+        font-size: large;
+    }
+    .excepteur-para {
+        width: 620px;
+    }
+    .excepteur-line {
+        width: 580px;
+    }
+    .baria-para{
+        width:210%;
+    }
+    .leonard-margin{
+        width:472px;
+    }
+    .comment-margin{
+        padding-top: 1px;
+    }
+    .button-padding{
+        margin-bottom:34px;
+    }
+    .hr-color {
+        margin-left: 77px;
+        width: 616px;
+    }
+    .about-line{
+        padding-left:0px;
+    }
+    .about-margin{
+        grid-gap:3px;
+        padding-left: 0px;
+
+    }
+}
+
+  @media only screen and (min-width: 992px) and (max-width: 1440px) {   
+    main,footer,header{
+        overflow: hidden;
+    }
+    .about-us-container  .about-us-heading .align{
+        padding-left: 23px;
+    }
+    .about-us-position {
+         left: -30px; 
+    }
+    .about-us-align {
+         left: 33px; 
+    }
+    .leonard-padding{
+        margin-left: 0px !important;
+    }
+    .kawhi-font {
+        font-size: x-large;
+    }
+    .creative-font {
+        font-size: small;
+    }
+    .leonard-image{
+        width: 50%;
+        margin-left: 21px;
+    }
+    .filton-margin{
+        margin-left: 29px !important;
+        padding-left: 0px !important;
+    }
+    .sammy-font {
+        font-size: large;
+        margin-top: -4px;
+    }
+    .stylist-font {
+        font-size: medium;
+    }
+    .sandra-para {
+        font-size: medium;
+        width: 123%;
+        margin-left: -21px;
+        margin-top: -16px;
+    }
+    .sandra-image{
+        width: 50%;
+        margin-top: 13px;
+    }
+    .sandra-margin{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+    .jackson-image{
+        width: 108%;
+    }
+    .our-team-padding{
+        padding-right:3px;
+    }
+    .our-teams-container .view-all-margin{
+        left: 11px;
+    }
+    .our-services-container .view-all-margin{
+        left: 9px;
+        bottom:49px;
+    }
+    .our-services-container .line-padding{
+        padding-left:113px;
+    }
+    .our-team-height{
+        min-height: 739px;
+    }
+    .our-works-height{
+        min-height: 649px;
+        width: 231px;
+    }
+    .our-works-container .align{
+        font-size: xx-large !important;
+        padding-left: 0px;
+    }
+    .our-works-container .vertical{
+        font-size: xx-large !important;
+    }
+    .our-works-margin ul{
+        margin-left: 0px;
+        font-size: small;
+        line-height: 44px;
+    }
+    .our-works-container .view-all-margin1{
+        left: 2px;
+        bottom: 33px;
+    }
+    .our-works-image4{
+        width:114%;
+    }
+    .our-works-container .our-works-image5 {
+        width: 181%;
+    }
+    .our-works-container .margin-align{
+        width: 181%;
+        margin-left: 0px;
+    }
+    .scissor-container{
+        margin-top: 0px !important;
+    }
+    .scissor-container .scissor-margin1{
+        margin-top: -14px;
+        margin-left: -3px;
+    }
+    .scissor-container .handicrafts{
+        padding-left: 59px;
+    }
+    .scissor-container .scissor-font{
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .scissor-container .scissor-para p{
+        margin-top: 0px;
+        width: 62%;
+    }
+    .scissor-container .scissor-para1{
+        width:376px;
+        padding-left:67px;
+    }
+    .scissor-margin1 h4{
+        font-size: medium;
+    }
+    .scissor-para1 p{
+        width: 66%;
+        margin-left: -54px;
+    }
+    .scissor-para, .scissor-para1, .phone-para, .scissor-para2, p{
+        font-size:small;
+    }
+    .phone-para{
+        width:277px;
+        margin-left: -61px;
+    }
+    .scissor-marketing-image{
+        margin-left: 49px;
+    }
+    .scissor-container .scissor-para{
+        width:341px;
+    }
+    .scissor-container .marketing p{
+        margin-top: -5px;
+        width: 62%;
+    }
+    .scissor-container .coffee-padding h4{
+        margin-left: -5px;
+    }
+    .scissor-container .coffee-para p{
+        margin-top: -19px;
+        margin-left: -43px;
+        width: 66%;
+    }
+    .scissor-container .furniture-para{
+        width: 220px;
+        padding-left: 13px;
+        margin-top: 20px;
+    }
+    .scissor-container .awesome-margin{
+        width: 220px;
+        padding-left: 13px;
+        margin-top: -8px;
+    }
+    
+    .scissor-container .awesome-image{
+        width: 27%;
+        margin-left:-4px;
+    }
+    .scissor-container .easy-to-customize p{
+        width: 67%;
+        margin-left: -50px;
+    }
+    .scissor-container .project-para{
+        margin-top: 4px;
+        margin-left: -59px;
+        width: 118%;
+    }    
+    .scissor-flex .our-services-container .our-services-height{
+        min-height: 631px;
+    }
+    .scissor-flex .our-services-container .vertical-1{
+        font-size: x-large !important;
+        padding-right: 5px;
+    }
+    .testimonials-container .vertical{
+        padding-left: 19px;
+    }
+    .testimonials-container .align{
+        padding-left: 4px;
+    }
+    .testimonials-container .leo-alpha-big-image{
+        margin-left:-108px;
+    }
+    .testimonials-container .leo-alpha-image{
+        grid-gap:0px;
+        margin-left: -28px;
+    }
+    .testimonials-container .leo-alpha-margin{
+        left:-22px;
+    }
+    .testimonials-container .testimonials-margin{
+        left: 1px;
+    }
+    .our-blogs-image2 img{
+        width:100%;
+    }
+    .our-blogs-heading{
+        margin-left: -177px;
+        padding-left: 142px;
+    }    
+    .our-blogs-para{
+        padding-left: 13px;
+        margin-top: 21px;
+    }
+    .continue-align{
+        margin-left:78px;
+    }
+    .best-design-margin{
+        width:56%;
+        margin-left:79px;
+    }
+    .continue-margin{
+        margin-right: 0px;
+    }
+    .best-design-para{
+        margin-left: -85px;
+    }
+    .best-design-heading{
+        padding-bottom: 17px;
+        padding-top: 0px;
+        margin-left: -133px;
+    }
+    .continue-align1{
+        margin-bottom: 0px;
+        margin-left: 72px;
+    }
+    .our-blogs-image1{
+        margin-left:50px;
+        margin-bottom:50px;
+    }
+    .our-blogs-image1 img{
+        width:100%;
+        margin-top: 88px;
+    }
+    .our-blogs-margin1{
+        padding-left: 0px;
+    }
+    .our-blogs-container .our-blogs-margin1 .our-blog-height{
+        min-height: 782px;
+    }
+    .our-blogs-container .our-blogs-margin1 .view-all-margin{
+        left: 57px;
+    }
+    .footer-padding{
+        margin-left: -89px;
+    }
+    .eagleeyes-heading{
+        margin-left: 37px;
+    }
+    .baria-margin{
+        margin-left: 30px;
+    }
+    .pricing-align{
+        margin-top: 50px;
+        margin-left: 12px;
+        width: 31%;
+    }
+    .pricing-padding{
+        padding-left: 0px !important;
+    }
+    .pricing-margin{
+        left: 41px;
+        bottom: 82px;
+    }
+    .card-margin{
+        margin-left:0px;
+        margin-top:21px;
+    }
+    .card-grid {
+        grid-gap: 0px; 
+        margin-top: 66px;
+    }
+    .border{
+        margin-left:35px;
+    }
+    .pricing-card{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .pricing-card1{
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    .coffee{
+        font-size: large;
+    }
+    .excepteur-para {
+        width: 225px;
+        margin-left: 37px;    
+    }
+    .excepteur-line {
+        margin-left: 29px;
+        width: 249px;
+    }    
+    .baria-para{
+        width: 268px;    
+    }
+    .leonard-margin{
+        width: 271px;
+        margin-left: 44px;
+    }    
+    .comment-margin{
+        padding-top: 1px;
+        width: 415px;
+        margin-left: -121px;
+    }
+    .button-padding{
+        margin-bottom:34px;
+    }
+    .hr-color {
+        margin-left: 54px;
+        width: 531px;
+    }
+    .about-line{
+        padding-left:0px;
+    }
+    .about-margin{
+        grid-gap:3px;
+        padding-left: 0px;
+        margin-left: 56px;
+        margin-top: 26px;
+    }
+    } 
+
+@media(min-width :1536px) and (max-width: 1900px){
+    main,footer,header{
+        overflow: hidden;
+    }
+    .about-us-position {
+        left: -100px;
+    }
+    .about-us-align {
+        left: 163px;
+    }
+    .leonard-padding{
+        margin-left: 0px !important;
+    }
+    .kawhi-font {
+        font-size: xx-large;
+    }
+    .creative-font {
+        font-size: medium;
+    }
+    .leonard-image{
+        width: 72%;
+    }
+    .filton-margin{
+        margin-left: 85px !important;
+        padding-left: 0px !important;
+    }
+    .sammy-font {
+        font-size: large;
+        margin-top: -4px;
+    }
+    .stylist-font {
+        font-size: medium;
+    }
+    .sandra-para {
+        font-size: medium;
+        width: 101%;
+        margin-left: 5px;
+        margin-top: -4px;
+    }
+    .sandra-image{
+        width: 72%;
+        margin-top: 13px;
+    }
+    .sandra-margin{
+        padding-left: 0px !important;
+        margin-left: 86px !important;
+    }
+    .jackson-image{
+        width: 117%;
+    }
+    .our-team-padding{
+        padding-right:3px;
+    }
+    .our-teams-container .view-all-margin{
+        left: 92px;
+    }
+    .our-services-container .view-all-margin{
+        left: 55px;
+        bottom:28px;
+    }
+    .our-services-container .line-padding{
+        padding-left:113px;
+    }
+    .our-team-height{
+        min-height: 739px;
+    }
+    .our-works-height{
+        min-height: 649px;
+        width: 275px;
+    }
+    .our-works-container .align{
+        font-size: xx-large !important;
+        padding-left: 0px;
+    }
+    .our-works-container .vertical{
+        font-size: xx-large !important;
+    }
+    .our-works-margin ul{
+        margin-left: 0px;
+        font-size: small;
+        line-height: 44px;
+    }
+    .our-works-container .view-all-margin1{
+        left: 28px;
+        bottom: 33px;
+    }
+    .our-works-image4{
+        width:114%;
+    }
+    .our-works-container .our-works-image5 {
+        width: 181%;
+    }
+    .our-works-container .margin-align{
+        width: 181%;
+        margin-left: 0px;
+    }
+    .scissor-container{
+        margin-top: 0px !important;
+    }
+    .scissor-container .scissor-margin1{
+        margin-top: -14px;
+        margin-left: -3px;
+    }
+    .scissor-container .handicrafts{
+        padding-left: 59px;
+    }
+    .scissor-container .scissor-font{
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .scissor-container .scissor-para p{
+        margin-top: 0px;
+        width: 62%;
+    }
+    .scissor-container .scissor-para1{
+        width:376px;
+        padding-left:67px;
+    }
+    .scissor-margin1 h4{
+        font-size: medium;
+    }
+    .scissor-para1 p{
+        width: 66%;
+        margin-left: -54px;
+    }
+    .scissor-para, .scissor-para1, .phone-para, .scissor-para2, p{
+        font-size:small;
+    }
+    .phone-para{
+        width:277px;
+        margin-left: -61px;
+    }
+    .scissor-marketing-image{
+        margin-left: 49px;
+    }
+    .scissor-container .scissor-para{
+        width:341px;
+    }
+    .scissor-container .marketing p{
+        margin-top: -5px;
+        width: 62%;
+    }
+    .scissor-container .coffee-padding h4{
+        margin-left: -5px;
+    }
+    .scissor-container .coffee-para p{
+        margin-top: -19px;
+        margin-left: -43px;
+        width: 66%;
+    }
+    .scissor-container .furniture-para{
+        width: 220px;
+        padding-left: 13px;
+        margin-top: 20px;
+    }
+    .scissor-container .awesome-margin{
+        margin-top: -8px;
+    }
+    
+    .scissor-container .awesome-image{
+        width: 15%;
+        margin-left:41px;
+    }
+    .scissor-container .easy-to-customize p{
+        width: 67%;
+        margin-left: -50px;
+    }
+    .scissor-container .project-para{
+        margin-top: 4px;
+        margin-left: -59px;
+        width: 81%;
+    }    
+    .scissor-flex .our-services-container .our-services-height{
+        min-height: 631px;
+    }
+    .scissor-flex .our-services-container .vertical-1{
+        font-size: x-large !important;
+        padding-right: 5px;
+    }
+    .testimonials-container .vertical{
+        padding-left: 19px;
+    }
+    .testimonials-container .align{
+        padding-left: 4px;
+    }
+    .testimonials-container .leo-alpha-big-image{
+        margin-left:-108px;
+    }
+    .testimonials-container .leo-alpha-image{
+        grid-gap: 29px;
+        margin-left: -15px;
+        margin-top: 98px;    
+    }
+    .testimonials-container .leo-alpha-margin{
+        left:-22px;
+    }
+    .testimonials-container .testimonials-margin{
+        left: 50px;
+    }
+    .our-blogs-image2 img{
+        width:100%;
+    }
+    .our-blogs-heading{
+        margin-left: -98px;
+        padding-left: 142px;
+    }    
+    .our-blogs-para{
+        margin-left: 45px;
+        padding-left: 0px;
+        margin-top: 21px;
+    }    
+    .continue-align{
+        margin-left:44px;
+    }
+    .best-design-margin{
+        width:56%;
+        margin-left:79px;
+    }
+    .continue-margin{
+        margin-right: 0px;
+    }
+    .best-design-para{
+        margin-left: -93px;
+        margin-top:0px;
+    }
+    .best-design-heading{
+        padding-bottom: 17px;
+        padding-top: 0px;
+        margin-left: -94px;
+    }
+    .continue-align1{
+        margin-bottom: 0px;
+        margin-left: 136px;
+    }
+    .our-blogs-image1{
+        margin-left:50px;
+        margin-bottom:50px;
+    }
+    .our-blogs-image1 img{
+        width:100%;
+        margin-top: 88px;
+    }
+    .our-blogs-margin1{
+        padding-left: 0px;
+    }
+    .our-blogs-container .our-blogs-margin1 .our-blog-height{
+        min-height: 782px;
+    }
+    .our-blogs-container .our-blogs-margin1 .view-all-margin{
+        left: 160px;
+    }
+    .footer-padding{
+        margin-left: -89px;
+    }
+    .eagleeyes-heading{
+        margin-left: 37px;
+    }
+    .baria-margin{
+        margin-left: 30px;
+    }
+    .pricing-align{
+        margin-top: 50px;
+        margin-left: 12px;
+        width: 31%;
+    }
+    .pricing-padding{
+        padding-left: 0px !important;
+    }
+    .pricing-margin{
+        left: 41px;
+        bottom: 82px;
+    }
+    .card-margin{
+        margin-left:0px;
+        margin-top:21px;
+    }
+    .card-grid {
+        grid-gap: 69px; 
+        margin-top: 66px;
+    }
+    .border{
+        margin-left:35px;
+    }
+    .pricing-card{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .pricing-card1{
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    .coffee{
+        font-size: large;
+    }
+    .excepteur-para {
+        width: 315px;
+        margin-left: 37px;    
+    }
+    .excepteur-line {
+        margin-left: 29px;
+        width: 356px;
+    }    
+    .baria-para{
+        width: 355px;    
+    }
+    .leonard-margin{
+        width: 373px;
+        margin-left: 44px;
+    }    
+    .comment-margin{
+        padding-top: 1px;
+        width: 442px;
+        margin-left: -121px;
+    }
+    .button-padding{
+        margin-bottom:34px;
+    }
+    .hr-color {
+        margin-left: 54px;
+        width: 531px;
+    }
+    .about-line{
+        padding-left:0px;
+    }
+    .about-margin{
+        grid-gap:8px;
+        padding-left: 0px;
+        margin-left: 56px;
+        margin-top: 26px;
+    }
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+ 
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
