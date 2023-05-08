@@ -1,0 +1,17 @@
+.output {
+    width: 192px;
+    background: black;
+    color: white;
+    padding: 100px;
+    margin: auto;
+    font-size: 37px;
+    text-align:center;
+    border: 10px  solid white;  
+    box-shadow: 5px 10px #888888;
+}      
+body {
+    background: grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
