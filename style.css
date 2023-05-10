@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.full-bg{
+    background:url("image/blue.jpeg") no-repeat;
+    background-size: cover;
+}
+.container{
+    background:url("image/blue.jpeg") no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+.field-container{
+    margin: 15px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.field-address-inner-container{
+    margin: 15px 0px;
+}
+.field-name{
+    height: 20px; 
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.field{
+    width: 40%;
+    height: 20px; 
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.company{
+    width: 40%; 
+    height: 20px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.textarea{
+    background-color:white;
+}
+.submit{
+    background-color: olivedrab;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.marginBottom{
+    margin-bottom: 5px;
+}
+.field1{
+    width: 205px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.required-field{
+    color:red;
+}
+.error-msg{
+    color:red;
+    margin-top: 5px;
+}
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:url("image/blue.jpeg") no-repeat;
+    background-size: cover;    
+  }
+.success-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+.success{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.center{
+    text-align: center;
+}
