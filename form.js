@@ -2,13 +2,12 @@ function validation() {
    let fname = document.getElementById("first-name").value;
    let errorfName = document.getElementById("error-fname");
    let regexAlphabets = /^[A-Za-z]+$/;
-   let isValid = true;
    if(fname == "" || fname == undefined || fname == null){
         errorfName.innerText = "Please enter your first name";
-        isValid = false;
+        return false;
    } else if(!regexAlphabets.test(fname)){
         errorfName.innerText = "Please enter only alphabets";
-        isValid = false;
+        return false;
    } 
    else {
         errorfName.innerText = "";
@@ -19,10 +18,10 @@ function validation() {
 
    if(lname =="" || lname == undefined || lname == null){
         errorLname.innerText = "Please enter your last name";
-        isValid = false;
+        return false;
     }else if(!regexAlphabets.test(lname)){
         errorLname.innerText = "Please enter only alphabets";
-        isValid = false;
+        return false;
     }
      else {
         errorLname.innerText = "";
@@ -34,14 +33,14 @@ function validation() {
 
     if (phoneNumber =="" || phoneNumber == undefined || phoneNumber == null){
         errorPhoneNumber.innerText = "Pleae enter phone number";
-        isValid = false;
+        return false;
     }else if (phoneNumber.length !=10){
         errorPhoneNumber.innerText = "Please enter 10 digit number";
-        isValid = false;
+        return false;
     } 
     else if(!regexNumbers.test(phoneNumber)){
         errorPhoneNumber.innerText = "Please enter number only";
-        isValid = false;
+        return false;
     }
     else{
         errorPhoneNumber.innerText = "";
@@ -52,7 +51,7 @@ function validation() {
 
     // if (panNumber =="" || panNumber == undefined || panNumber == null){
     //     errorPanNumber.innerText = "Please enter pan number";
-    //     isValid = false;
+    //      return false;
     // }
     // else{
     //     errorPanNumber.innerText = "";
@@ -64,10 +63,10 @@ function validation() {
 
     if (email =="" || email == undefined || email == null ){
         errorEmail.innerText = "Please enter Email";
-        isValid = false;
+        return false;
     }else if(!regexEmail.test(email)){
         errorEmail.innerText = "Please enter valid email address";
-        isValid = false;
+        return false;
     }else {
         errorEmail.innerText = "";
     }
@@ -77,7 +76,7 @@ function validation() {
 
     // if (company == "" || company == undefined || company == null){
     //     errorCompanyName.innerText = "Please enter company name";
-    //     isValid = false;
+    //      return false;
     // }else{
     //         errorCompanyName.innerText = "";
     //     }
@@ -87,7 +86,7 @@ function validation() {
 
     if (streetNumber == "" || streetNumber == undefined || streetNumber == null){
         errorStreetNumber.innerText = "Please enter street number";
-        isValid = false;
+        return false;
     }else{
         errorStreetNumber.innerText = "";
     }
@@ -97,7 +96,7 @@ function validation() {
 
     if(city == "" || city == undefined || city == null){
         errorCity.innerText = "Please enter city";
-        isValid = false;
+        return false;
     }else{
         errorCity.innerText = "";
     }
@@ -107,7 +106,7 @@ function validation() {
 
     if(region == "" || region == undefined || region == null){
         errorRegion.innerText = "Please enter region";
-        isValid = false;
+        return false;
     }else{
         errorRegion.innerText = "";
     }
@@ -117,7 +116,7 @@ function validation() {
 
     if(postalCode == "" || postalCode == undefined || postalCode == null){
         errorPostalCode.innerText = "Please enter region";
-        isValid = false;
+        return false;
     }else{
         errorPostalCode.innerText = "";
     }
@@ -127,15 +126,9 @@ function validation() {
 
     if (selectedCountry == "" || selectedCountry == undefined || selectedCountry == null){
         errorSelectCountry.innerText = "Please select country";
-        isValid = false;
+        return false;
     }else {
         errorSelectCountry.innerText = "";
-    }
-
-    if(isValid){
-        return true;
-    }else {
-        return false;
     }
 }
 

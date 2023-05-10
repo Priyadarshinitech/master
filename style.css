@@ -2,10 +2,6 @@
    margin: 0;
    padding: 0;
 }
-.full-bg{
-    background:url("image/blue.jpeg") no-repeat;
-    background-size: cover;
-}
 .container{
     background:url("image/blue.jpeg") no-repeat;
     background-size: cover;
