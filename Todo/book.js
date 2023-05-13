@@ -1,52 +1,68 @@
 let book = document.querySelector("#book-info");
 let form = document.createElement("form");
-form.setAttribute("class","text-center container col-10 col-sm-8 col-lg-4");
+form.setAttribute("class","container col-10 col-sm-8 col-lg-4");
 let rowData = null;
 book.appendChild(form);
 
 //no of books
 let noOfBooksDiv = document.createElement("div");
-noOfBooksDiv.setAttribute("class", "form-group col-12 mt-5 bg-white text-center");
+noOfBooksDiv.setAttribute("class", "form-group col-12 mt-5 bg-white");
 let noOfBooksInput = document.createElement("input");
 noOfBooksInput.id = "no-of-books";
 noOfBooksInput.type = "number";
 noOfBooksInput.classList = "form-control form-control-lg";
 noOfBooksInput.placeholder = "Enter no.of books";
 noOfBooksDiv.appendChild(noOfBooksInput);
+let noOfBooksPara = document.createElement("p");
+noOfBooksPara.className = "error-font";
+noOfBooksPara.id = "error-no-of-books";
+noOfBooksDiv.appendChild(noOfBooksPara);
 form.appendChild(noOfBooksDiv);
  
 //name of the book
 let nameOftheBookDiv = document.createElement("div");
-nameOftheBookDiv.classList = "form-group col-12 bg-white text-center mt-3";
+nameOftheBookDiv.classList = "form-group col-12 bg-white mt-3";
 let nameOftheBooksInput = document.createElement("input");
 nameOftheBooksInput.id = "name-of-books";
 nameOftheBooksInput.type = "text";
 nameOftheBooksInput.classList = "form-control form-control-lg";
 nameOftheBooksInput.placeholder = "Name of the book";
 nameOftheBookDiv.appendChild(nameOftheBooksInput);
+let nameOfBooksPara = document.createElement("p");
+nameOfBooksPara.className = "error-font";
+nameOfBooksPara.id = "error-name-books";
+nameOftheBookDiv.appendChild(nameOfBooksPara);
 form.appendChild(nameOftheBookDiv);
 
 //author name
 let authorAmountDiv = document.createElement("div");
 authorAmountDiv.className = "row";
 let authorNameDiv = document.createElement("div");
-authorNameDiv.classList = "form-group col bg-white text-center mt-3";
+authorNameDiv.classList = "form-group col bg-white mt-3";
 let authorNameInput = document.createElement("input");
 authorNameInput.id = "author-name";
 authorNameInput.type = "text";
 authorNameInput.classList = "form-control form-control-lg";
 authorNameInput.placeholder = "Author";
 authorNameDiv.appendChild(authorNameInput);
+let authorPara = document.createElement("p");
+authorPara.className = "error-font";
+authorPara.id = "error-author-name";
+authorNameDiv.appendChild(authorPara);
 
 //amount
 let AmountDIv = document.createElement("div");
-AmountDIv.classList = "form-group col bg-white text-center mt-3";
+AmountDIv.classList = "form-group col bg-white mt-3";
 let AuthorDivInput = document.createElement("input");
 AuthorDivInput.id = "amount";
 AuthorDivInput.type = "number";
 AuthorDivInput.classList = "form-control form-control-lg";
 AuthorDivInput.placeholder = "Amount";
 AmountDIv.appendChild(AuthorDivInput);
+let amountPara = document.createElement("p");
+amountPara.className = "error-font";
+amountPara.id = "error-book-amount";
+AmountDIv.appendChild(amountPara);
 authorAmountDiv.appendChild(authorNameDiv);
 authorAmountDiv.appendChild(AmountDIv);
 form.appendChild(authorAmountDiv);
@@ -136,9 +152,65 @@ table.appendChild(thead);
 let tbody = document.createElement("tbody");
 table.appendChild(tbody);
 
+function validation(){
+    let noOfBooks = document.querySelector("#no-of-books").value;
+    let errorOfBooks = document.getElementById("error-no-of-books");
+
+    if(noOfBooks == "" || noOfBooks == undefined || noOfBooks == null){
+        errorOfBooks.innerText = "Please enter no. of books";
+        return false;
+    } else{
+        errorOfBooks.innerText = "";
+    }
+
+    let nameOfBooks = document.getElementById("name-of-books").value;
+    let errorNameOfBooks = document.getElementById("error-name-books");
+    let regexAlphabets = /^[A-Za-z]+$/;
+
+    if(nameOfBooks == "" || nameOfBooks == undefined || nameOfBooks == null){
+        errorNameOfBooks.innerText = "Please enter book name";
+        return false;
+    } else if(!regexAlphabets.test(nameOfBooks)) {
+        errorNameOfBooks.innerText = "Please enter alphabets only";
+        return false;
+    } else{
+        errorNameOfBooks.innerText = "";
+    }
+
+    let bookAuthor = document.getElementById("author-name").value;
+    let errorBookAuthor = document.getElementById("error-author-name");
+
+    if(bookAuthor == "" || bookAuthor == undefined || bookAuthor == null){
+        errorBookAuthor.innerText = "Please enter author name";
+        return false;
+    } else if(!regexAlphabets.test(bookAuthor)){
+        errorBookAuthor.innerText = "Please enter alphabets only";
+        return false;
+    } else{
+        errorBookAuthor.innerText = "";
+    }
+
+    let bookAmount = document.getElementById("amount").value;
+    let errorBookAmount = document.getElementById("error-book-amount");
+
+    if(bookAmount == "" || bookAmount == undefined || bookAmount == null){
+        errorBookAmount.innerText = "Please enter amount";
+        return false;
+    } else {
+        errorBookAmount.innerText = "";
+    }
+    return true;
+
+}
+
+
 //add function
 function addBooks(event){
-    // event.preventDefault();
+
+    let validTrue = validation();
+
+    if(validTrue){
+
     let noOfBooksInputValue = document.querySelector("#no-of-books").value;
 
     let nameOftheBooksInputvalue = document.querySelector("#name-of-books").value;
@@ -185,6 +257,7 @@ function addBooks(event){
 
 
     clearBooks();
+    }
 }
 
 //delete function

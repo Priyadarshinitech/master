@@ -16,3 +16,6 @@
 .book-details-table{
     display:none;
 }
+.error-font{
+    color:red;
+}
